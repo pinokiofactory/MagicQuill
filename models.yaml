@@ -1,0 +1,6 @@
+checkpoints:
+  - realisticVisionV60B1_v51VAE.safetensors
+  - DreamShaper.safetensors
+  - ghostmix_v20Bakedvae.safetensors
+  - majicMIX_realistic.safetensors
+  - MeinaMix.safetensors
