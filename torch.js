@@ -1,5 +1,16 @@
 module.exports = {
   run: [
+    // nvidia 50 series (windows/linux)
+    {
+      "when": "{{gpu === 'nvidia' && gpu_model && / 50[0-9]+/.test(gpu_model) }}",
+      "method": "shell.run",
+      "params": {
+        "venv": "{{args && args.venv ? args.venv : null}}",
+        "path": "{{args && args.path ? args.path : '.'}}",
+        "message": "uv pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128"
+      },
+      "next": null
+    },
     // windows nvidia
     {
       "when": "{{platform === 'win32' && gpu === 'nvidia'}}",
