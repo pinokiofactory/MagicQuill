@@ -2,7 +2,7 @@ module.exports = {
   run: [
     // nvidia 50 series (windows)
     {
-      "when": "{{gpu === 'nvidia' && platform === 'win32' && gpu_model && / 50.+/.test(gpu_model) }}",
+      "when": "{{gpu === 'nvidia' && platform === 'win32' && kernel.gpu_model && / 50.+/.test(kernel.gpu_model) }}",
       "method": "shell.run",
       "params": {
         "venv": "{{args && args.venv ? args.venv : null}}",
@@ -17,7 +17,7 @@ module.exports = {
     },
     // nvidia 50 series (linux)
     {
-      "when": "{{gpu === 'nvidia' && platform === 'linux' && gpu_model && / 50.+/.test(gpu_model) }}",
+      "when": "{{gpu === 'nvidia' && platform === 'linux' && kernel.gpu_model && / 50.+/.test(kernel.gpu_model) }}",
       "method": "shell.run",
       "params": {
         "venv": "{{args && args.venv ? args.venv : null}}",
