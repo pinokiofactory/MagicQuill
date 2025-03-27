@@ -4,6 +4,7 @@ module.exports = {
   title: "MagicQuill",
   description: "An intelligent, interactive Image Editing System. Easily erase and add objects on a user-friendly interface.",
   icon: "icon.png",
+  bitcoin: "1DdQdK4SfyJ7dZ64eiw2cPzsEigmbQ2CeW",
   menu: async (kernel, info) => {
     let installed = info.exists("app/env")
     let running = {
