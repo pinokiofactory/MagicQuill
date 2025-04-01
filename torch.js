@@ -78,7 +78,10 @@ module.exports = {
       "params": {
         "venv": "{{args && args.venv ? args.venv : null}}",
         "path": "{{args && args.path ? args.path : '.'}}",
-        "message": "uv pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/rocm6.2"
+        "message": [
+          "uv pip install torch==2.6.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.2.4",
+          "uv pip install 'https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/continuous-release_multi-backend-refactor/bitsandbytes-0.44.1.dev0-py3-none-manylinux_2_24_x86_64.whl' --force-reinstall --no-deps"
+        ]
       }
     },
     // linux cpu
