@@ -1,5 +1,9 @@
 {
   "posts": [
     "https://x.com/cocktailpeanut/status/1893368751720145286"
-  ]
+  ],
+  "links": [{
+    "type": "bitcoin",
+    "value": "1DdQdK4SfyJ7dZ64eiw2cPzsEigmbQ2CeW"
+  }]
 }
