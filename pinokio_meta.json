@@ -3,7 +3,28 @@
     "https://x.com/cocktailpeanut/status/1893368751720145286"
   ],
   "links": [{
-    "type": "bitcoin",
-    "value": "1DdQdK4SfyJ7dZ64eiw2cPzsEigmbQ2CeW"
+    "title": "6Morpheus6 (wrote the launcher)",
+    "links": [{
+      "type": "bitcoin",
+      "value": "1DdQdK4SfyJ7dZ64eiw2cPzsEigmbQ2CeW"
+    }, {
+      "title": "Github",
+      "value": "https://github.com/6Morpheus6"
+    }, {
+      "title": "Pinokio Wiki",
+      "value": "https://github.com/6Morpheus6/pinokio-wiki"
+    }, {
+      "title": "Discord",
+      "value": "https://discord.gg/TQdNwadtE4"
+    }]
+  }, {
+    "title": "Magic Quill Official (by ant-research)",
+    "links":[{
+      "title": "Tutorial",
+      "value": "https://magicquill.art/demo/"
+    },{
+      "title": "Huggingface Space",
+      "value": "https://huggingface.co/spaces/AI4Editing/MagicQuill"
+    }]
   }]
 }
