@@ -86,12 +86,6 @@ module.exports = {
         "exclude": '"*DS_Store" "*.md"',
         "local-dir": "models",
       }
-    },
-    {
-      method: "fs.link",
-      params: {
-        venv: "app/env"
-      }
     }
   ]
 }
