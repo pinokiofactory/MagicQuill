@@ -74,6 +74,7 @@ module.exports = {
           "https://github.com/cocktailpeanutlabs/automatic1111.git",
           "https://github.com/cocktailpeanutlabs/fooocus.git",
           "https://github.com/cocktailpeanutlabs/comfyui.git",
+          "https://github.com/pinokiofactory/comfy.git",
           "https://github.com/pinokiofactory/stable-diffusion-webui-forge.git"
         ]
       }
