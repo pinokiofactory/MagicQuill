@@ -1,6 +1,6 @@
 const path = require('path')
 module.exports = {
-  version: "3.3",
+  version: "3.7",
   title: "MagicQuill",
   description: "An intelligent, interactive Image Editing System. Easily erase and add objects on a user-friendly interface.",
   icon: "icon.png",
