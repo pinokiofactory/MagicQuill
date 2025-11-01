@@ -81,12 +81,10 @@ module.exports = {
       }
     },
     {
-      method: "hf.download",
+      method: "shell.run",
       params: {
         path: "app",
-        "_": [ "LiuZichen/MagicQuill-models" ],
-        "exclude": '"*DS_Store" "*.md"',
-        "local-dir": "models",
+        message: "hf download LiuZichen/MagicQuill-models --exclude '*DS_Store' '*.md' --local-dir models"
       }
     }
   ]
