@@ -84,7 +84,8 @@ module.exports = {
           "https://github.com/cocktailpeanutlabs/comfyui.git",
           "https://github.com/pinokiofactory/comfy.git",
           "https://github.com/pinokiofactory/stable-diffusion-webui-forge.git",
-          "https://github.com/6Morpheus6/Fooocus-API.git"
+          "https://github.com/6Morpheus6/Fooocus-API.git",
+          "https://github.com/6Morpheus6/forge-neo.git"
         ]
       }
     },
