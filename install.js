@@ -12,6 +12,9 @@ module.exports = {
     {
       method: "shell.run",
       params: {
+        env: {
+          CONDA_AUTO_UPDATE_CONDA: "false"
+        },
         message: [
           "conda update -y -c conda-forge huggingface_hub",
         ]
