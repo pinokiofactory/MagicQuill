@@ -28,7 +28,7 @@ module.exports = {
         venv: "env",
         path: "app",
         message: [
-          "uv pip install gradio_magicquill-0.0.1-py3-none-any.whl",
+          "uv pip install gradio_magicquill-0.0.1-py3-none-any.whl huggingface_hub==0.36",
           "uv pip install -r requirements.txt"
         ]
       }
